@@ -23,7 +23,7 @@
 * Клонировать проект используя команду "$ git clone https://github.com/bigsurmoon/petApiTest" 
 * Открыть проект в IDE (напр. [IntelliJ IDEA](https://www.jetbrains.com/ru-ru/idea/) или [Aqua](https://www.jetbrains.com/aqua/))
 * Запуск тестов: mvn test
-* Генерация Allure отчета: mvn allure:serve (отчеты открываются автоматически после прохождения тестов) 
+* Генерация Allure отчета: mvn allure:serve (отчет открывается автоматически после прохождения тестов) 
 
 * ## Структура проекта
 

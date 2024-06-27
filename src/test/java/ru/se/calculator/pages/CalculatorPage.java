@@ -60,7 +60,7 @@ public class CalculatorPage extends BasePage {
         secondNumber.sendKeys(SECOND_NUMBER);
     }
 
-    @Step("Выбрать операцию:")
+    @Step("Выбрать операцию")
     public void selectOperation(String operation) {
         Select select = new Select(selectOperation);
         select.selectByVisibleText(operation);

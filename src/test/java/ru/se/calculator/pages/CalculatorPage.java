@@ -44,29 +44,29 @@ public class CalculatorPage extends BasePage {
         ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight)");
     }
 
-    @Step("Выбрать сборку {build}")
+    @Step("Выбрать сборку")
     public void selectBuild(String build) {
         Select select = new Select(selectBuild);
         select.selectByVisibleText(build);
     }
 
-    @Step("Ввести первое число: {number}")
+    @Step("Ввести первое число")
     public void enterFirstNumber() {
         firstNumber.sendKeys(FIRST_NUMBER);
     }
 
-    @Step("Ввести второе число: {number}")
+    @Step("Ввести второе число")
     public void enterSecondNumber() {
         secondNumber.sendKeys(SECOND_NUMBER);
     }
 
-    @Step("Выбрать операцию: {operation}")
+    @Step("Выбрать операцию:")
     public void selectOperation(String operation) {
         Select select = new Select(selectOperation);
         select.selectByVisibleText(operation);
     }
 
-    @Step("Нажать кнопку 'Calculate'")
+    @Step("Нажать кнопку")
     public void clickCalculate() {
         calculateButton.click();
     }
